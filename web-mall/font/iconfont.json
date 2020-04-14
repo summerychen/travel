@@ -1,0 +1,44 @@
+{
+  "id": "1715021",
+  "name": "tour",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "637519",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "1183123",
+      "name": "供应商",
+      "font_class": "gongyingshang",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "2323354",
+      "name": "退货保障",
+      "font_class": "tuihuobaozhang",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "6234773",
+      "name": "包邮",
+      "font_class": "baoyou",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "1233479",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    }
+  ]
+}

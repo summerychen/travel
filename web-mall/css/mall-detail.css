@@ -1,0 +1,418 @@
+.p-head {
+  margin-bottom: 20px;
+  padding: 20px 0 14px 28px;
+  border: 1px solid #ddd;
+  background: #fff;
+  overflow: hidden;
+}
+.p-title h1 {
+  font-weight: normal;
+  color: #333;
+}
+.p-detail .tag {
+  margin-right: 10px;
+  height: 16px;
+  background: #5eb930;
+  color: #fff;
+  padding: 0 2px;
+}
+.p-detail .id {
+  color: #f40;
+}
+.p-detail .vendor {
+  color: #999;
+}
+.head-body .head-left {
+  width: 500px;
+}
+.head-right {
+  width: 660px;
+  padding: 10px 0 0 0;
+}
+.p-bg {
+  padding: 10px 0 0 0;
+  width: 100%;
+  height: 150px;
+  background: url(../img/resource-price-bg.jpg) no-repeat center center;
+}
+.p-pic img {
+  width: 500px;
+}
+.p-spic ul li {
+  float: left;
+}
+.active {
+  border: 2px solid #ccc;
+}
+.p-spic ul li img {
+  width: 100px;
+}
+
+.crumb_wrap {
+  margin: 15px 0 5px 0;
+}
+
+.preview_img {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ededed;
+  /* overflow: hidden; */
+}
+
+.mask {
+  display: none;
+  /* 鼠标经过的时候才显示 */
+  width: 300px;
+  height: 300px;
+  background-color: #fede4f;
+  border: 1px solid #ccc;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: move;
+}
+
+.big {
+  display: none;
+  /* 鼠标经过的时候才显示 */
+  position: absolute;
+  /*不占位置 */
+  top: 0;
+  z-index: 999;
+  left: 410px;
+  width: 500px;
+  height: 500px;
+  background-color: pink;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.big img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.preview_list {
+  height: 60px;
+  margin-top: 60px;
+  position: relative;
+}
+
+.arrow_next {
+  right: 0;
+  top: 11px;
+  position: absolute;
+}
+
+.arrow_prev {
+  left: 0;
+  top: 11px;
+  position: absolute;
+}
+
+.list_item {
+  width: 320px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.list_item li {
+  float: left;
+  width: 58px;
+  height: 58px;
+  margin: 0 2px;
+  border: 1px solid transparent;
+}
+
+.list_item .current {
+  border: 1px solid #c81623;
+}
+
+.itemInfo_wrap {
+  width: 719px;
+}
+
+.sku_name {
+  font-size: 16px;
+  height: 33px;
+}
+
+.news {
+  font-size: 12px;
+  height: 33px;
+  color: #e12228;
+}
+
+.summary {
+  padding-left: 9px;
+}
+
+.summary dl {
+  overflow: hidden;
+}
+
+.summary_price {
+  padding: 10px 0;
+}
+
+.summary dt,
+dd {
+  float: left;
+}
+
+.summary dt {
+  font-size: 12px;
+  width: 60px;
+  padding-left: 10px;
+  line-height: 31px;
+}
+
+.summary_price .prace {
+  font-size: 24px;
+  line-height: 31px;
+  color: #e12228;
+}
+
+.summary_price a {
+  color: #e12228;
+  font-size: 12px;
+  line-height: 31px;
+}
+
+.summary_price span {
+  float: right;
+  font-size: 12px;
+  line-height: 28px;
+  padding-right: 20px;
+}
+
+.summary_price span i {
+  color: #1474af;
+}
+
+.summary_price span .jiagou {
+  display: inline-block;
+  background-color: #e12228;
+  width: 40px;
+  height: 22px;
+  color: #fff;
+  line-height: 22px;
+  text-align: center;
+}
+
+.summary_support dd {
+  line-height: 31px;
+}
+
+.choose {
+  margin: 5px 0;
+}
+
+.choose a {
+  display: inline-block;
+  width: 80px;
+  height: 41px;
+  border: 1px solid #ededed;
+  text-align: center;
+  font-size: 12px;
+  line-height: 41px;
+}
+
+.choose_amount {
+  float: left;
+  width: 39px;
+  height: 44px;
+  border: 1px solid #ededed;
+  line-height: 44px;
+  position: relative;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.addcar {
+  float: left;
+  display: inline-block;
+  width: 142px;
+  height: 46px;
+  background-color: #e12228;
+  color: #fff;
+  line-height: 46px;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.add,
+.reduce {
+  width: 15px;
+  height: 22px;
+  border: 1px solid #ededed;
+  border-top: none;
+  border-right: none;
+  line-height: 22px;
+  text-align: center;
+}
+
+.add {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.reduce {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: not-allowed;
+}
+
+.product_detail {
+  margin-top: 30px;
+}
+
+.product_detail .aside {
+  width: 207px;
+  border: 1px solid #dddddd;
+  /* height: 2384px; */
+}
+
+.tab_list {
+  overflow: hidden;
+}
+
+.tab_list li {
+  float: left;
+  height: 33px;
+  width: 103px;
+  background-color: #f1f1f1;
+  border: 1px solid #dddddd;
+  border-top: none;
+  border-right: none;
+  font-size: 12px;
+  line-height: 33px;
+  text-align: center;
+}
+
+/* 当鼠标点击相关分类时 */
+
+.tab_list .current {
+  float: left;
+  border: none;
+  color: #c81623;
+  background-color: #fff;
+}
+
+.product_detail .detail {
+  width: 978px;
+  /* height: 2384px; */
+  border: 1px solid #ededed;
+}
+
+.product_detail .tab_con {
+  width: 183px;
+  padding: 0 10px;
+  /* height: 220px; */
+  /* background-color: blue; */
+}
+
+.tab_con ul {
+  width: 185px;
+}
+
+.tab_con li {
+  float: left;
+  width: 92px;
+  height: 27px;
+  border-bottom: 1px dashed #ededed;
+  font-size: 12px;
+  line-height: 27px;
+}
+
+.tab_con .jianjie {
+  display: block;
+  font-size: 14px;
+  height: 34px;
+  line-height: 34px;
+}
+
+.tab_con div {
+  height: 30px;
+  width: 185px;
+  float: left;
+  border-bottom: 1px solid #ededed;
+  margin: 10px 0;
+}
+
+.tab_pic {
+  width: 183px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.tab_pic li {
+  border-bottom: 1px solid #ccc;
+}
+
+.title {
+  /* 超出的文字省略号显示 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}
+
+.aside_price {
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.as_addcar {
+  display: block;
+  width: 87px;
+  height: 26px;
+  border: 1px solid #ccc;
+  line-height: 26px;
+  text-align: center;
+  margin: 10px auto;
+  background-color: #f7f7f7;
+}
+
+.detail_nav {
+  height: 39px;
+  background-color: #f1f1f1;
+  border: 1px solid #dddddd;
+}
+
+.detail_nav li {
+  float: left;
+  width: 87px;
+  height: 39px;
+  text-align: center;
+  line-height: 39px;
+}
+
+.current {
+  background-color: #c81623;
+  color: #fff;
+}
+
+.item {
+  padding: 10px 0 0 15px;
+}
+.item_info {
+  width: 900px;
+}
+.item_info li {
+  display: inline-block;
+  line-height: 22px;
+  width: 296px;
+}
+
+p a {
+  float: right;
+  font-weight: 700;
+  font-family: "icomoon";
+}
